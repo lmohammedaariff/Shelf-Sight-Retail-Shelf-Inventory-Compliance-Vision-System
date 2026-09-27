@@ -1,0 +1,2 @@
+-r requirements.txt
+keras-hub>=0.31,<0.32

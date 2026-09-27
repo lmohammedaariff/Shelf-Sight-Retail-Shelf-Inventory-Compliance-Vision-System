@@ -1,0 +1,21 @@
+{
+  "image_limits": {
+    "max_bytes": 20971520,
+    "max_width": 8000,
+    "max_height": 8000,
+    "max_pixels": 30000000
+  },
+  "vision": {
+    "resize_max_side": 1600,
+    "max_regions": 100,
+    "confidence_threshold": 0.65,
+    "nms_iou_threshold": 0.65
+  },
+  "training": {
+    "image_size": 160,
+    "batch_size": 32,
+    "seed": 42,
+    "validation_fraction": 0.1,
+    "test_fraction": 0.1
+  }
+}

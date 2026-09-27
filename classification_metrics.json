@@ -1,0 +1,185 @@
+{
+  "samples": 7,
+  "accuracy": 1.0,
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "labels": [
+    "Coconut milk carton",
+    "Tomato",
+    "Carrot",
+    "Green bell pepper",
+    "Cucumber",
+    "Yellow onion",
+    "Cabbage"
+  ],
+  "per_class": [
+    {
+      "label": "Coconut milk carton",
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "Tomato",
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "Carrot",
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "Green bell pepper",
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "Cucumber",
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "Yellow onion",
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "Cabbage",
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  ],
+  "confusion_matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "confidence_metrics": {
+    "expected_calibration_error": 0.0108923486300877,
+    "multiclass_brier_score": 0.00023932353621116195,
+    "ece_bins": 15,
+    "reliability_bins": [
+      {
+        "lower": 0.9333333333333333,
+        "upper": 1.0,
+        "count": 7,
+        "accuracy": 1.0,
+        "mean_confidence": 0.9891076513699123
+      }
+    ],
+    "note": "ECE depends on binning and estimates calibration on this evaluation split; it is not a per-example guarantee."
+  },
+  "selective_metrics": [
+    {
+      "threshold": 0.5,
+      "accepted": 7,
+      "coverage": 1.0,
+      "accepted_accuracy": 1.0
+    },
+    {
+      "threshold": 0.6,
+      "accepted": 7,
+      "coverage": 1.0,
+      "accepted_accuracy": 1.0
+    },
+    {
+      "threshold": 0.7,
+      "accepted": 7,
+      "coverage": 1.0,
+      "accepted_accuracy": 1.0
+    },
+    {
+      "threshold": 0.8,
+      "accepted": 7,
+      "coverage": 1.0,
+      "accepted_accuracy": 1.0
+    },
+    {
+      "threshold": 0.9,
+      "accepted": 7,
+      "coverage": 1.0,
+      "accepted_accuracy": 1.0
+    }
+  ],
+  "dataset_type": "synthetic_demo",
+  "split": "contact-sheet rows 1-3 plus shelf-context crops for training; row 4 held out",
+  "training_samples": 28,
+  "test_samples": 7,
+  "real_shelf_accuracy_claim": null,
+  "limitations": "Tiny synthetic split from one generated contact sheet; not independent real-world validation."
+}

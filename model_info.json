@@ -1,0 +1,25 @@
+{
+  "architecture": "MobileNetV2 transfer learning",
+  "synthetic_demo": true,
+  "dataset": "AI-generated product contact sheet plus AI-generated shelf context crops",
+  "dataset_image_count": 28,
+  "dataset_total_image_count": 35,
+  "synthetic_crop_count_written": 35,
+  "classes": [
+    "Coconut milk carton",
+    "Tomato",
+    "Carrot",
+    "Green bell pepper",
+    "Cucumber",
+    "Yellow onion",
+    "Cabbage"
+  ],
+  "independent_held_out_evaluation": false,
+  "synthetic_held_out_evaluation": true,
+  "accuracy_claim": null,
+  "limitations": [
+    "Synthetic-only training data; not validated on real store photos.",
+    "Scores are uncalibrated and predictions require human review.",
+    "Add varied real product crops and retrain for useful store-specific results."
+  ]
+}

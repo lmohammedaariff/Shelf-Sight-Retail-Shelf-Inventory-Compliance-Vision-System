@@ -1,0 +1,12 @@
+{
+  "architecture": "MobileNetV2",
+  "weights": "imagenet",
+  "image_size": 160,
+  "epochs": 20,
+  "seed": 42,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "early_stopping_patience": 4,
+  "score_threshold": 0.65,
+  "score_threshold_note": "Raw softmax score; must be selected on a validation set and is not a calibrated probability."
+}

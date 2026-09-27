@@ -1,0 +1,21 @@
+{
+  "shelf_id": "aisle-1",
+  "rows": [
+    {
+      "row_id": "top",
+      "y_center": 0.35,
+      "slots": [
+        {"slot_id": "top-left", "expected_sku": "Cola", "x_center": 0.25, "tolerance": 0.10},
+        {"slot_id": "top-right", "expected_sku": "Water", "x_center": 0.75, "tolerance": 0.10}
+      ]
+    },
+    {
+      "row_id": "bottom",
+      "y_center": 0.75,
+      "slots": [
+        {"slot_id": "bottom-left", "expected_sku": "Juice", "x_center": 0.25, "tolerance": 0.10},
+        {"slot_id": "bottom-right", "expected_sku": "Chips", "x_center": 0.75, "tolerance": 0.10}
+      ]
+    }
+  ]
+}
